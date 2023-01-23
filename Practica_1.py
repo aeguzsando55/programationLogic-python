@@ -20,12 +20,21 @@ def potencia(num, n):
 def raiz_cuadrada(num):
     return math.sqrt(num)
 
+#* Operaciones logicas simples
+def es_par(num):
+    if num % 2 == 0:
+        return True
+
 if __name__ == "__main__":
     print("hello world")
     num1 = int(input("Ingrese el primer numero: "))
     num2 = int(input("Ingrese el segundo numero: "))
     mi_suma = suma(num1, num2)
     print(f"la suma de {num1} y {num2} es igual a {mi_suma}")
+    if es_par(mi_suma):
+        print(f"{mi_suma} es par")
+    else:
+        print(f"{mi_suma} es impar")
     mi_resta = resta(num1, num2)
     print(f"la resta de {num1} y {num2} es igual a {mi_resta}")
     mi_multiplicacion = multiplicacion(num1, num2)
