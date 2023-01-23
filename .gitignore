@@ -3,3 +3,4 @@ vscode
 include
 lib*
 __pycache__
+share
