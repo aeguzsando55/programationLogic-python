@@ -1,6 +1,7 @@
 bin 
-vscode
+.vscode
 include
 lib*
 __pycache__
 share
+pyvenv.cfg
